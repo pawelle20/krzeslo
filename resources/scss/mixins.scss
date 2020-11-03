@@ -1,0 +1,41 @@
+@mixin center-block {
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}
+
+@mixin body-container($width:$bodyContainerWidth, $maxWidth:$bodyContainerMaxWidth ) {
+    @include center-block;
+    width: $width;
+    max-width: $maxWidth;
+}
+
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin font-size-rem($size, $baseSize: $fontBaseSize) {
+    font-size: $size; // fallback for old browsers
+    font-size: ($size / $baseSize) * 1rem;
+}
+
+@mixin font-size-em($size, $base) {
+    font-size: $size; // fallback for old browsers
+    font-size: ($size / $base) * 1em;
+}
+
+@mixin line-height($lineHeight, $fontSize) {
+    line-height: $lineHeight / $fontSize;
+}
+
+@mixin absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

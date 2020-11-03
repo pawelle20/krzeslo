@@ -1,0 +1,34 @@
+@import "normalize";
+@import "vars";
+@import "fonts";
+@import "mixins";
+
+html {
+    font-size: $fontBaseSize;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: $fontFamilyMain;
+    background: white;
+    color: black;
+}
+
+body {
+    position: relative;
+}
+
+.body {
+    width: $bodyContainerWidth;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 98%;
+}
+
+.container{
+    width: $containerWidth;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 98%;
+}

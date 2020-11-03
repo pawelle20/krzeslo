@@ -1,0 +1,333 @@
+/* PAGE SIZES * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+$bodyContainerWidth: 1120px;
+$bodyContainerMaxWidth: 98%;
+$bodyContainerMaxWidthTablet: 95%;
+$tightBodyContainerWidth: 800px;
+$Sizeone:20px;
+$Sizetwo:25px;
+$Sizethree:30px;
+$Sizefour:35px;
+$Sizefive:40px;
+
+$HeaderTopHeight: 97px;
+$HeaderTopHeightTablet: 80px;
+$HeaderTopHeightStickyTablet: 50px;
+
+$productSidebarWidth: 350px; // right sidebar size on product page
+$leftMenuWidth: 250px; // main left sidebar in categories view
+$paragraphWidth: 600px;
+
+// RESPONSIVE breakpoints
+$breakpointScreen: $bodyContainerWidth;
+$breakpointTablet: 900px;
+$breakpointMobile: 600px;
+$boxHeight: 420px;
+
+// Gap base
+$gapBase: 10px;
+
+// width where left menu goes inside page, important for media query
+$mediaSideMenuMaxWidth: $bodyContainerWidth + $leftMenuWidth * 2 + ($gapBase * 8);
+
+/* FONTS * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+// family
+$fontFamilyMain: 'OpenSans';
+
+// weights
+$fontWeightThin: 300;
+$fontWeightDefault: 500;
+$fontWeightSemiThin: 400;
+$fontWeightBold: 600;
+$fontWeightBolder: 700;
+$fontWeightLight: 200;
+$fontWeightSemibold: 600;
+
+$defaultLineHeight: 1.5 !default;
+$defaultFontSmoothing: subpixel-antialiased !default;
+
+// sizes
+$fontSize0: 10px;
+$fontSize1: 11px; // dodaj do porónania,  nasi konsultanci, i data na newsach
+$fontSize2: 12px; // twoj koszyk, banner na dole tekst, karty: kod produktu, lista atrybutów, w dellowo syskujesz opis, karty newsów, footer copyright, ,
+$fontSize3: 13px; // czego szukasz, drugie menu, większe ceny szare, menu na dole
+$fontSize4: 14px; // stacja robocza presicion, podtytuł rozwiń swoje pomysły, przejdź do produktu, dowiedz się więcej, ceny
+$fontSize5: 15px; //
+$fontSize6: 16px; // tytuły kart z lapkami, newsy na dole, h4?
+$fontSize18: 18px; // w dellowo zyskujesz h5
+$fontSize19: 19px; //
+$fontSize20: 20px; //
+
+$fontSize22: 22px; // h4
+
+$fontSize26: 26px; // h3, top icon as well?
+$fontSize30: 30px; // h2 // na niektórych stronach jako h1??? kategorie.
+$fontSize40: 40px; // h1
+$fontSize46: 46px;
+
+$fontSizeFontelloMedium: 22px; // fontello for top menu
+$fontSizeFontelloLarge: 24px; // fontello for tab icons
+$fontSizeFontelloBig: 50px; // used for icon in add plus
+$containerWidth: 98%;
+$bodyContainerWidth: 1200px;
+
+// Line heights
+
+$textLineHeightBig: 1.9em;
+
+// base size
+$fontBaseSize: $fontSize2;
+
+$fontSizeButtonIcon: $fontSizeFontelloMedium;
+$fontSizeButtonIconMedium: $fontSizeFontelloLarge;
+
+/* COLORS * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+// mains
+$colorDarkest: #100f0d;
+$colorBrightest: white;
+$colorBrightestOne: rgba($colorBrightest, 0.5);
+$colorBrightestTwo: rgba($colorBrightest, 0.3);
+$colorBrightestThree: rgba($colorBrightest, 0.2);
+$colorBrightestFour: rgba($colorBrightest, 0.9);
+$colorBrightestFive: rgba($colorBrightest, 0.8);
+
+$colorMain: #154055;
+$colorMainZero: rgba($colorMain, 0.8);
+$colorMainOne: rgba($colorMain, 0.5);
+$colorMainTwo: rgba($colorMain, 0.35);
+$colorMainThree: rgba($colorMain, 0.2);
+$colorMainFour: rgba($colorMain, 0.1);
+$colorMainFive: rgba($colorMain, 0.6);
+$colorMainSix: rgba($colorMain, 0.9);
+$colorMainSeven: rgba($colorMain, 0.4);
+$colorMainEight: rgba($colorMain, 0.05);
+$colorMainNine: rgba($colorMain, 0.08);
+
+$colorSecondaryWashed: #0094aa;
+$colorAccentMain: #66c2d0;
+
+$colorSecondary: #009fd3;
+$colorSecondaryWashed2: rgba($colorSecondaryWashed, 0.8);
+$colorSecondaryWashed3: #99d4dd;
+
+$colorAccentMainDarker: darken($colorAccentMain, 20%);
+
+$colorAccentPromo: #66d0ab;
+
+$colorNeutral: #a6b7bf;
+$colorNeutralOne: rgba($colorNeutral, 0.5);
+$colorNeutralTwo: rgba($colorNeutral, 0.3);
+$colorNeutralThree: rgba($colorNeutral, 0.2);
+
+$colorAccepted: $colorAccentMain;
+$colorSuccess: #64bb45;
+$colorDanger: #d06666;
+$colorWarning: #d09466;
+$colorDone: $colorAccentMain;
+
+$colorBackgroundDark: $colorMain;
+$colorBackgroundBrightest: $colorBrightest;
+
+$colorAccentLink: $colorSecondary; // for example tab underline
+$colorIconsBright: $colorAccentMain;
+$colorDividerBright: rgba($colorBrightest, 0.1);
+
+$colorGradient: #f6f6f6;
+$colorGradient2: black;
+
+$labelColor1: $colorAccentPromo;
+$labelColor2: #f26522;
+$officeDefaultColor: $labelColor2;
+$officeDefaultColor1: rgba($labelColor2, 0.8);
+
+$colorOfficialPartnerBackground: #100f0d;
+$paginationDotColor: #e5ebee;
+$paginationDotActiveColor: #8598a6;
+
+$colorPremiumStation: #f09c1c;
+$colorPremiumSerwer: #3f73b9;
+
+$colorLine: #e8ecee;
+
+
+// text colors
+$colorTextDarkBright: rgba($colorMain, 0.4);
+$colorTextLittleBright: rgba($colorBrightest, 0.4);
+$colorTextBright: rgba($colorBrightest, 0.8);
+$colorTextSemiBright: rgba($colorBrightest, 0.6);
+
+$colorTextMain: $colorMain;
+$colorTextLink: $colorSecondaryWashed;
+
+/* SHADOWS * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+$mainBoxShadow: 0 2px 40px rgba($colorMain, 0.08);
+$mainBoxShadowActive: 0 2px 30px rgba($colorMain, 0.3);
+$inputBoxShadow: 0 1px 10px rgba($colorMain, 0.04);
+$breadcrumbMenuBoxShadow: 0 2px 10px rgba($colorMain, 0.16);
+
+$shadowBox1: 0 2px 30px rgba($colorMain, 0.12);
+$shadowBox2: 0 2px 50px rgba($colorMain, 0.08);
+$shadowBox3: 0 2px 50px rgba($colorMain, 0.12);
+$shadowBox4: inset 0 1px 2px rgba($colorMain, 0.2);
+$shadowBox5: 0 2px 30px rgba($colorMain, 0.08);
+
+$menuInnerItemShadowBox: inset 0px 0px 50px rgba(0, 0, 0, 0.2);
+
+/* INPUTS * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+// inputs
+$inputBorder: 1px solid rgba($colorMain, 0.3);
+$input-box-width: 75%;
+$label-width: calc(25% - 15px);
+$inputBorderRadius: 4px;
+$inputs-border-width-focused: 2px;
+$inputs-border-width: 1px;
+
+// range slider
+$rangeSliderLineHeight: 5px;
+$rangeSliderHandlerHeight: 16px;
+
+/* OTHER * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+$selectCircleSize: 20px;
+$selectCircleBorderSize: 2px;
+
+$dividerBorderStyle: 1px solid rgba($colorMain, 0.1);
+$boxRoundCorner: 2px;
+$boxRoundCornerMedium: 4px;
+
+$borderStyle1: 1px solid rgba(21, 64, 85, 0);
+$borderColor1: #198d19;
+
+$borderStyle1: 1px solid rgba(21, 64, 85, 0);
+$borderStyle2: 2px solid #198d19;
+$borderStyle3: 1px solid rgba(21, 64, 85, 0.1);
+$borderStyle4: 2px solid rgba($colorMain, 0.1);
+$borderStyle5: 1px solid rgba($colorMain, 0.05);
+$borderStyle6: 2px solid rgba($colorMain, 0.03);
+
+$borderColor1: #198d19;
+$cartAdditionBorderWidth: 4px;
+$dividerBorderBrightStyle: 1px solid rgba($colorAccentMain, 0.2);
+
+$popUpMaxHeight: 480px;
+$popUpWidth: 400px;
+
+/* TRANSITIONS * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+$transitionStandardTime: .3s;
+$transitionHalfStandardTime: $transitionStandardTime/2;
+$transitionDoubleStandardTime: $transitionStandardTime*2;
+$transitionTripleStandardTime: $transitionStandardTime*3;
+
+/* GAPS * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+$gap05: $gapBase / 2;
+$gap06: $gap05 + 1;
+$gap15: $gapBase * 1.5;
+$gap2: $gapBase * 2;
+$gap2_5: $gapBase * 2.5;
+$gap3: $gapBase * 3;
+$gap4: $gapBase * 4;
+$gap5: $gapBase * 5;
+$gap6: $gapBase * 6;
+$gap7: $gapBase * 7;
+$gap8: $gapBase * 8;
+$gap9: $gapBase * 9;
+$gap10: $gapBase * 10;
+$gap11: $gapBase * 11;
+$gap12: $gapBase * 12;
+$gap13: $gapBase * 13;
+$gap14: $gapBase * 14;
+
+$gapGrid: $gapBase * 4;
+$firstSectionGap: $gap4;
+
+:root {
+    --gap05: #{$gap05};
+    --gap06: #{$gap06};
+    --gap1: #{$gapBase};
+    --gap15: #{$gap15};
+    --gap2: #{$gap2};
+    --gap2_5: #{$gap2_5};
+    --gap3: #{$gap3};
+    --gap4: #{$gap4};
+    --gap5: #{$gap5};
+    --gap6: #{$gap6};
+    --gap7: #{$gap7};
+    --gap8: #{$gap8};
+    --gap9: #{$gap9};
+    --gap10: #{$gap10};
+    --gap11: #{$gap11};
+    --gap12: #{$gap12};
+    --gap13: #{$gap13};
+    --gap14: #{$gap14};
+
+    --gapProductGrid: #{$gapGrid};
+}
+
+@media(max-width: $breakpointTablet) {
+    :root {
+        --gap05: #{$gap05/1.5};
+        --gap1: #{$gapBase/1.5};
+        --gap15: #{$gap15/1.5};
+        --gap2: #{$gap2/1.5};
+        --gap3: #{$gap3/1.5};
+        --gap4: #{$gap4/1.5};
+        --gap5: #{$gap5/1.5};
+        --gap6: #{$gap6/1.5};
+        --gap7: #{$gap7/1.5};
+        --gap8: #{$gap8/1.5};
+        --gap9: #{$gap9/1.5};
+        --gap10: #{$gap10/1.5};
+        --gap11: #{$gap11/1.5};
+        --gap12: #{$gap12/1.5};
+        --gap13: #{$gap13/1.5};
+        --gap14: #{$gap14/1.5};
+
+        --gapProductGrid: #{$gapGrid/2};
+    }
+}
+
+@media(max-width: $breakpointMobile) {
+    :root {
+        --gap05: #{$gap05/2};
+        --gap1: #{$gapBase/2};
+        --gap15: #{$gap15/2};
+        --gap2: #{$gap2/2};
+        --gap3: #{$gap3/2};
+        --gap4: #{$gap4/2};
+        --gap5: #{$gap5/2};
+        --gap6: #{$gap6/2};
+        --gap7: #{$gap7/2};
+        --gap8: #{$gap8/2};
+        --gap9: #{$gap9/2};
+        --gap10: #{$gap10/2};
+        --gap11: #{$gap11/2};
+        --gap12: #{$gap12/2};
+        --gap13: #{$gap8/13};
+        --gap14: #{$gap8/14};
+
+        --gapProductGrid: #{$gapGrid/3};
+    }
+}
+
+/* Z-INDEX * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+$z-index1K: 1000;
+
+/* BACKGROUND GRADIENTS * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+$backgroundGradient: linear-gradient(to top, $colorGradient 0%, $colorBrightest 100%);
+$backgroundGradient1: linear-gradient(to bottom, rgba($colorMain, 0) 0%, rgba($colorGradient2, 0.1) 100%);
+
+/* OPACITY * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+$opacity08: 0.8;
+$opacity06: 0.6;
+
+/* BORDER CUTS SIZES * * * * * * * * * * * * * * * */
+$borderCutXSmall: 3px;
+$borderCutSmall: 5px;
+$borderCutMedium: 10px;
+$borderCutLarge: 15px;
+
